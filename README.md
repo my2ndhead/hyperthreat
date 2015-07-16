@@ -21,7 +21,7 @@ For detecting risk events, a normal Splunk alert search is created. The search s
 
 Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines, which alerts are managed by Risk Manager. For each alert, a risk object type, such as user or host, is defined, that will be monitored. For each risk object of this type, a risk score will be assigned to the risk object. Risk scores are accumulated, should a risk object be again detected by an alert.
 
-If needed (e.g. to collect evidence) search results can automatically be stored inside a V store collection.
+If needed (e.g. to collect evidence) search results can automatically be stored inside a KV store collection.
 
 # How can an anomalous behaviour be detected for a risk object?
 
