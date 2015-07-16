@@ -23,7 +23,7 @@ Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines, w
 
 If needed (e.g. to collect evidence) search results can automatically be stored inside a V store collection.
 
-# How can a anomalous behaviour be detected for a risk object?
+# How can an anomalous behaviour be detected for a risk object?
 
 To detect, if a risk object is behaving differently than usual, a baseline has to be set up. Out-of-the-box Splunk does not provide baselining functionality. This is the reason why we brought Hyperbaseline into the Suite....
 
