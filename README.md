@@ -1,5 +1,5 @@
 # Splunk Hyperthreat App Suite
-##Insider-Threat Detection for the Masses
+** Insider-Threat Detection for the Masses **
 
 # Introduction
 
@@ -41,9 +41,9 @@ Using the "encrypt" command, all evidence that needs to be collected can be encr
 
 Yes, but beside being a premium app and out of reach for many Splunk user, several key features are missing in ES:
 
--Collecting and storing evidence
--Easy baselining commands
--Securely monitoring insider threats with hashing and encryption algorithms, making the Hyperthreat app the only app that respects employee privacy.
+- Collecting and storing evidence
+- Easy baselining commands
+- Securely monitoring insider threats with hashing and encryption algorithms, making the Hyperthreat app the only app that respects employee privacy.
 
 # Has the app been tested in production?
 
@@ -53,6 +53,6 @@ Not yet, as it is hot of the press. But our first tests against the DARPA inside
 
 Complete documentation can be found here
 
-Risk Manager: https://github.com/my2ndhead/risk_manager/wiki
-Hyperbaseline: https://github.com/my2ndhead/SA-hyperbaseline/blob/master/README.md
-Hypercrypto: https://github.com/my2ndhead/SA-hypercrypto/blob/master/README.md
+- Risk Manager: https://github.com/my2ndhead/risk_manager/wiki
+- Hyperbaseline: https://github.com/my2ndhead/SA-hyperbaseline/blob/master/README.md
+- Hypercrypto: https://github.com/my2ndhead/SA-hypercrypto/blob/master/README.md
