@@ -29,7 +29,7 @@ To detect, if a risk object is behaving differently than usual, a baseline has t
 
 # Isn't employee monitoring forbidden in most countries?
 
-In most countries, privacy laws are very restrictive. Care has to be taken, about who is allowed to see critical events. While collecting data about employee activity is usually ok, as long as access is restricted to the log files. Analyzing employee activity in detail has very tight restriction. This is why we developed Hypercrypto.
+In most countries, privacy laws are very restrictive. Care has to be taken, about who is allowed to see critical events. Collecting data about employee activity is usually ok, as long as access is restricted to the log files. Analyzing employee activity in detail has very tight restrictions. This is why we developed Hypercrypto.
 
 The Hypercrypt add-on brings hashing and encrpytion algorithms to Splunk. 
 
