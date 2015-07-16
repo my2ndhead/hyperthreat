@@ -35,7 +35,7 @@ The Hypercrypt add-on brings hashing and encrpytion algorithms to Splunk.
 
 Using the "hash" command, a user's name can be hashed. The hash value will always be identical for the same user and can therefore be used for scoring. Using a secret salt, will make it very hard to reveal the original username.
 
-Using the "encrypt" command, all evidence that needs to be collected can be encrypted. We decided to implement a asymmetric encryption algorithms (public-key encryption), so that only users who need to see the data, will need the password for the private key. Passwords to private keys are stored inside Splunk and access to private key passwords is done one per user basis.
+Using the "encrypt" command, all evidence that needs to be collected can be encrypted. We decided to implement a asymmetric encryption algorithms (public-key encryption), so that only users who need to see the data, will need the password for the private key. Passwords to private keys are stored inside Splunk and access to private key passwords is done one per user basis. This way, HR or a legal department can decide, wether further investigation have to proceed.
 
 # Doens't the Splunk App for Enterprise Security provides risk scoring, insider-threat intelligence?
 
