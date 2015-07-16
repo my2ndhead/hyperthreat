@@ -13,7 +13,7 @@ The Splunk Hyperthreat app suite provides advanced Insider Threat Detection. The
 
 Detecting insiders is a tough task, as insiders can move slowly over several weeks and months to stay undetected. On the other hand, opening security incidents for every little suspicious action, will cause many false alerts.
 
-A good solution to find insiders is to attach risk scores to suspicious events. Each risk event is related to a risk object. A risk object could e.g. be a user/employee doing something bad, or a system/host being attacked.
+A good solution to find insiders is to define risk scores to suspicious events. Each risk event is related to a risk object. A risk object could e.g. be a user/employee doing something bad, or a system/host being attacked. If a risk object behaves badly over time, the risk score will rise and possibly reach a level that requires further actions.
 
 # How does it work?
 
