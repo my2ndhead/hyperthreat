@@ -56,3 +56,24 @@ Complete documentation can be found here
 - Risk Manager: https://github.com/my2ndhead/risk_manager/wiki
 - Hyperbaseline: https://github.com/my2ndhead/SA-hyperbaseline/blob/master/README.md
 - Hypercrypto: https://github.com/my2ndhead/SA-hypercrypto/blob/master/README.md
+
+# License
+- **This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.** [1]
+- **Commercial Use, Excerpt from CC BY-NC-SA 4.0:**
+  - "A commercial use is one primarily intended for commercial advantage or monetary compensation."
+- **In case of the Hyperthreat this translates to:**
+  - You may use the Hyperthreat Suite in commercial environments for handling in-house Splunk alerts
+  - You may use Hyperthreat Suite as part of your consulting or integration work, if you're considered to be working on behalf of your customer. The customer will be the licensee of Hyperthreat Suite and must comply according to the license terms
+  - You are not allowed to sell the Hyperthreat Suite as a standalone product or within an application bundle
+  - If you want to use Hyperthreat Suite outside of these license terms, please contact us and we will find a solution
+
+# Notes for the Splunk Apptitude2 Challenge
+
+We have spun up an Amazon EC2 cloud instance and will provide full access to the operating system (Ubunt) and Splunk Enterprise.
+The Splunk instance contains the DARPA test data, and TA-threatintelligence.
+Also, the GA release of the Hyperthreat Suite, including Risk Manager, Hyperbaseline and Hypercrypto will be installed as documented.
+A separate App with Demo searches will be provided. As the testdata is historic and due to lack of time it was impossible to write an event replayer, all the searches are run against historical data. All searches simulate the situation as how they  would be in real-life. The tests run against the R6.1 Test data an focus on the Insider #1 with the username of "CSF2712".
+
+## References
+[1] http://creativecommons.org/licenses/by-nc-sa/4.0/
+
