@@ -37,3 +37,22 @@ Using the "hash" command, a user's name can be hashed. The hash value will alway
 
 Using the "encrypt" command, all evidence that needs to be collected can be encrypted. We decided to implement a asymmetric encryption algorithms (public-key encryption), so that only users who need to see the data, will need the password for the private key. Passwords to private keys are stored inside Splunk and access to private key passwords are done one per user basis.
 
+# Doens't the Splunk App for Enterprise Security provide risk scoring, insider-threat intelligence?
+
+Yes, but beside being a premium app and out of reach for many Splunk user, several key features are missing in ES:
+
+-Collecting and storing evidence
+-Easy baselining commands
+-Securely monitoring insider threats with hashing and encryption algorithms, making the Hyperthreat app the only app that respects employee privacy.
+
+# Has the app been tested in production?
+
+Not yet, as it is hot of the press. But our first tests against the DARPA insider threat testdata, has shown 100% success in detecting an insider in the sample data (R6.1.1). Further tests are planned and algorithms are improved as we learn more.
+
+# Where can I find more details how the Apps work?
+
+Complete documentation can be found here
+
+Risk Manager: https://github.com/my2ndhead/risk_manager/wiki
+Hyperbaseline: https://github.com/my2ndhead/SA-hyperbaseline/blob/master/README.md
+Hypercrypto: https://github.com/my2ndhead/SA-hypercrypto/blob/master/README.md
