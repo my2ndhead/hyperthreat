@@ -17,7 +17,7 @@ A good solution to find insiders is to attach risk scores to suspicious events. 
 
 # How does it work?
 
-For detecting risk events, a normal Splunk alert search is created. The search should fire, when a risky event happens. The alert is set up to call an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
+For detecting risk events, a normal Splunk alert search is created. The search should fire, when a risk event happens. The alert is set up to call an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
 
 Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines which alerts are managed by Risk Manager. For each alert, a risk object type, such as user or host, is defined, that will be monitored. For each risk object of this type, a risk score will be assigned to the risk object. Risk scores are accumulated, should a risk object be again detected by an alert.
 
