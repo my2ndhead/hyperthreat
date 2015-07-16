@@ -23,7 +23,7 @@ Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines wh
 
 If needed (e.g. to collect evidence) search results can automatically be stored inside a KV store collection.
 
-# How can an anomalous behaviour be detected for a risk object?
+# How can an anomalous behavior be detected for a risk object?
 
 To detect, if a risk object is behaving differently than usual, a baseline has to be set up. Out-of-the-box Splunk does not provide baselining functionality. This is the reason why we brought Hyperbaseline into the Suite....
 
@@ -37,7 +37,7 @@ Using the "hash" command, a user's name can be hashed. The hash value will alway
 
 Using the "encrypt" command, all evidence that needs to be collected can be encrypted. We decided to implement a asymmetric encryption algorithms (public-key encryption), so that only users who need to see the data, will need the password for the private key. Passwords to private keys are stored inside Splunk and access to private key passwords is done one per user basis.
 
-# Doens't the Splunk App for Enterprise Security provide risk scoring, insider-threat intelligence?
+# Doens't the Splunk App for Enterprise Security provides risk scoring, insider-threat intelligence?
 
 Yes, but besides being a premium app and out of reach for many Splunk user, several key features are missing in ES:
 
@@ -77,4 +77,3 @@ Complete documentation can be found here
 
 ## References
 [1] http://creativecommons.org/licenses/by-nc-sa/4.0/
-
