@@ -1,5 +1,5 @@
 # Splunk Hyperthreat App Suite
-** Insider-Threat Detection for the Masses **
+*Insider-Threat Detection for the Masses*
 
 # Introduction
 
