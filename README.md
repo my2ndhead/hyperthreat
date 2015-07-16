@@ -13,13 +13,13 @@ The Splunk Hyperthreat app suite provides advanced Insider Threat Detection. The
 
 Detecting insiders is a tough task, as insiders can move slowly over several weeks and months to stay undetected. On the other hand, opening security incidents for every little suspicious action, will cause many false alerts.
 
-A good solution to find insiders, is to attach risk scores to suspicious events. Each risk event, is related to a risk object. A risk object could e.g. be a user/employee doing something bad, or a system/host being attacked.
+A good solution to find insiders is to attach risk scores to suspicious events. Each risk event is related to a risk object. A risk object could e.g. be a user/employee doing something bad, or a system/host being attacked.
 
 # How does it work?
 
-For detecting risk events, a normal Splunk alert search is created. The search should fire, when a risky event happens.The alert is set up to call an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
+For detecting risk events, a normal Splunk alert search is created. The search should fire, when a risky event happens. The alert is set up to call an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
 
-Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines, which alerts are managed by Risk Manager. For each alert, a risk object type, such as user or host, is defined, that will me monitored. For each risk object of this type, a risk score will be assigned to the risk object. Risk scores are accumulated, should a risk object be again detected by an alert.
+Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines, which alerts are managed by Risk Manager. For each alert, a risk object type, such as user or host, is defined, that will be monitored. For each risk object of this type, a risk score will be assigned to the risk object. Risk scores are accumulated, should a risk object be again detected by an alert.
 
 If needed (e.g. to collect evidence) search results can automatically be stored inside a V store collection.
 
@@ -35,11 +35,11 @@ The Hypercrypt add-on brings hashing and encrpytion algorithms to Splunk.
 
 Using the "hash" command, a user's name can be hashed. The hash value will always be identical for the same user and can therefore be used for scoring. Using a secret salt, will make it very hard to reveal the original username.
 
-Using the "encrypt" command, all evidence that needs to be collected can be encrypted. We decided to implement a asymmetric encryption algorithms (public-key encryption), so that only users who need to see the data, will need the password for the private key. Passwords to private keys are stored inside Splunk and access to private key passwords are done one per user basis.
+Using the "encrypt" command, all evidence that needs to be collected can be encrypted. We decided to implement a asymmetric encryption algorithms (public-key encryption), so that only users who need to see the data, will need the password for the private key. Passwords to private keys are stored inside Splunk and access to private key passwords is done one per user basis.
 
 # Doens't the Splunk App for Enterprise Security provide risk scoring, insider-threat intelligence?
 
-Yes, but beside being a premium app and out of reach for many Splunk user, several key features are missing in ES:
+Yes, but besides being a premium app and out of reach for many Splunk user, several key features are missing in ES:
 
 - Collecting and storing evidence
 - Easy baselining commands
