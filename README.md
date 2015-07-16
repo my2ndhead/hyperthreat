@@ -19,7 +19,7 @@ A good solution to find insiders is to attach risk scores to suspicious events. 
 
 For detecting risk events, a normal Splunk alert search is created. The search should fire, when a risky event happens. The alert is set up to call an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
 
-Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines, which alerts are managed by Risk Manager. For each alert, a risk object type, such as user or host, is defined, that will be monitored. For each risk object of this type, a risk score will be assigned to the risk object. Risk scores are accumulated, should a risk object be again detected by an alert.
+Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines which alerts are managed by Risk Manager. For each alert, a risk object type, such as user or host, is defined, that will be monitored. For each risk object of this type, a risk score will be assigned to the risk object. Risk scores are accumulated, should a risk object be again detected by an alert.
 
 If needed (e.g. to collect evidence) search results can automatically be stored inside a KV store collection.
 
@@ -72,8 +72,8 @@ Complete documentation can be found here
 - We have spun up an Amazon EC2 cloud instance and will provide full access to the operating system (Ubunt) and Splunk Enterprise.
 - The Splunk instance contains the DARPA test data, and TA-threatintelligence.
 - Also, the GA release of the Hyperthreat Suite, including Risk Manager, Hyperbaseline and Hypercrypto will be installed as documented.
-- A separate App with Demo searches will be provided. As the testdata is historic and due to lack of time it was impossible to write an event replayer, all the searches are run against historical data. All searches simulate the situation as how they  would be in real-life. 
-- The tests are run against the R6.1 Test data an focus on the Insider #1 with the username of "CSF2712".
+- A separate App with Demo searches will be provided. As the testdata is historic and due to lack of time it was impossible to write an event replayer, all the searches are run against historical data. All searches simulate the situation as how they would be in real-life. 
+- The tests are run against the R6.1 Test data and focus on the Insider #1 with the username of "CSF2712".
 
 ## References
 [1] http://creativecommons.org/licenses/by-nc-sa/4.0/
