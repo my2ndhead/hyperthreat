@@ -5,7 +5,7 @@
 
 The Splunk Hyperthreat app suite provides advanced Insider Threat Detection. The Suite consists of several Splunk apps/add-ons
 
-- Risk Manager: The main app for detecting and reporting risk events and scoring risk object**
+- Risk Manager: The main app for detecting and reporting risk events and scoring risk objects
 - Hyperbaseline: A baselining add-on to monitor activity and detect outliers
 - Hypercrypto: An add-on that provides hash and crypto commands.
 
