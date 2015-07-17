@@ -69,7 +69,7 @@ Complete documentation can be found here
 
 # Notes for the Splunk Apptitude2 Challenge
 
-- We have spun up an Amazon EC2 cloud instance and will provide full access to the operating system (Ubunt) and Splunk Enterprise.
+- We have spun up an Amazon EC2 cloud instance and will provide full access to the operating system (Ubuntu) and Splunk Enterprise.
 - The Splunk instance contains the DARPA test data, and TA-threatintelligence.
 - Also, the GA release of the Hyperthreat Suite, including Risk Manager, Hyperbaseline and Hypercrypto will be installed as documented.
 - A separate App with Demo searches will be provided. As the testdata is historic and due to lack of time it was impossible to write an event replayer, all the searches are run against historical data. All searches simulate the situation as how they would be in real-life. 
