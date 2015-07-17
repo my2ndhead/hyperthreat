@@ -49,7 +49,7 @@ Yes, but besides being a premium app and out of reach for many Splunk user, seve
 
 Not yet, as it is hot of the press. But our first tests against the DARPA insider threat testdata, has shown 100% success in detecting an insider in the sample data (R6.1.1). Further tests are planned and algorithms are improved as we learn more.
 
-# Where can I find more details how the Apps work?
+# Where can I find more details about how the apps work?
 
 Complete documentation can be found here
 
