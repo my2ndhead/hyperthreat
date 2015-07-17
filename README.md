@@ -74,6 +74,7 @@ Complete documentation can be found here
 - Also, the GA release of the Hyperthreat Suite, including Risk Manager, Hyperbaseline and Hypercrypto will be installed as documented.
 - A separate App with Demo searches will be provided. As the testdata is historic and due to lack of time it was impossible to write an event replayer, all the searches are run against historical data. All searches simulate the situation as how they would be in real-life. 
 - The tests are run against the R6.1 Test data and focus on the Insider #1 with the username of "CSF2712".
+- Risk Manager contains minor parts of code from the Alert Manager-app, where all intellectual property is owned by us (code reuse).
 
 ## References
 [1] http://creativecommons.org/licenses/by-nc-sa/4.0/
