@@ -62,7 +62,7 @@ Not yet, as it is hot of the press. But our first tests against the DARPA inside
 
 # Can I integrate solution xyz into the Hyperthreat App Suite?
 
-Yes! Risk scoring is done using normal Splunk searches. You can of course integrate your existing anomaly detection solution, security device. You can also encrypt this data if needed.
+Yes! Risk scoring is done using normal Splunk searches. You can of course integrate your existing anomaly detection solution, security device etc. all the data that you already have in Splunk! You can also encrypt this data if needed.
 
 # Where can I find more details about how the apps work?
 
