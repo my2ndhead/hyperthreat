@@ -3,7 +3,7 @@
 
 # Introduction
 
-The Splunk Hyperthreat app suite provides advanced Insider Threat Detection. The Suite consists of several independent and separatly usable Splunk apps/add-ons
+The Splunk Hyperthreat app suite provides advanced Insider Threat Detection. The Suite consists of several independent and separately usable Splunk apps/add-ons
 
 - Risk Manager: The main app for detecting and reporting risk events and scoring risk objects
 - Hyperbaseline: A general purpose baselining add-on to monitor activity and detect outliers
@@ -25,7 +25,7 @@ After talking with many customers and gathering all requirements, we came up wit
 
 # How does it work?
 
-For detecting risk events, a normal Splunk alert search is created. The search should fire, when a risk event occures. The alert is set up to call an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
+For detecting risk events, a normal Splunk alert search is created. The search should fire, when a risk event occurs. The alert is set up to call an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
 
 Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines which alerts are managed by Risk Manager. For each alert, a risk object type, such as user or host, is defined, that will be monitored. For each risk object of this type, a risk score will be assigned to the risk object. Risk scores are accumulated, should a risk object be again detected by an alert.
 
@@ -39,7 +39,7 @@ To detect, if a risk object is behaving differently than usual, a baseline has t
 
 In most countries, privacy laws are very restrictive. Care has to be taken, about who is allowed to see critical events. Collecting data about employee activity is usually ok, as long as access is restricted to the log files. Analyzing employee activity in detail has very tight restrictions. This is why we developed Hypercrypto.
 
-The Hypercrypto add-on brings hashing and encrpytion algorithms to Splunk. 
+The Hypercrypto add-on brings hashing and encryption algorithms to Splunk. 
 
 Using the "hash" command, a user's name can be hashed. The hash value will always be identical for the same user and can therefore be used for scoring. A secret salt will make it very hard to reveal the original username.
 
@@ -58,7 +58,7 @@ Beside this, the Hyperthreat App Suite can always be used together with the ES A
 
 # Has the app been tested in production?
 
-Not yet, as it is hot of the press. But our first tests against the DARPA insider threat testdata, has shown 100% success in detecting an insider in the sample data (R6.1.1). Further tests are planned and algorithms are improved as we learn more.
+Not yet, as it is hot of the press. But our first tests against the DARPA insider threat test data, has shown 100% success in detecting an insider in the sample data (R6.1.1). Further tests are planned and algorithms are improved as we learn more.
 
 # Can I integrate solution xyz into the Hyperthreat App Suite?
 
@@ -93,13 +93,13 @@ Complete documentation can be found here
 - We have spun up an Amazon EC2 cloud instance and will provide full access to the operating system (Ubuntu) and Splunk Enterprise.
 - The Splunk instance contains the DARPA test data, and TA-threatintelligence.
 - Also, the GA release of the Hyperthreat Suite, including Risk Manager, Hyperbaseline and Hypercrypto will be installed as documented.
-- A separate App with Demo searches will be provided. As the testdata is historic and due to lack of time it was impossible to write an event re-player, all the searches are run against historical data. All searches simulate the situation as how they would be in real-life. 
+- A separate App with Demo searches will be provided. As the test data is historic and due to lack of time it was impossible to write an event re-player, all the searches are run against historical data. All searches simulate the situation as how they would be in real-life. 
 - The tests are run against the R6.1 Test data and focus on the Insider #1 with the username of "CSF2712".
 - Risk Manager contains minor parts of code from the Alert Manager-app, where all intellectual property is owned by us (code reuse).
 
 # What we are proud of...
 
-This was a real team effort. We were able to build a complex solution together, touching almost every Splunk techology there is,and everyone was able to show his strenghts. The culmination of the project was, when we broughtthe three different app pieces together, almost everything worked right out-of-the-box and the insider in the test data was found immediatly.
+This was a real team effort. We were able to build a complex solution together, touching almost every Splunk technology there is,and everyone was able to show his strengths. The culmination of the project was, when we brought the three different app pieces together, almost everything worked right out-of-the-box and the insider in the test data was found immediately.
 
 ## References
 [1] http://creativecommons.org/licenses/by-nc-sa/4.0/
