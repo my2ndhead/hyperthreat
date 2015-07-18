@@ -35,7 +35,7 @@ If needed (e.g. to collect evidence) search results can automatically be stored 
 
 To detect, if a risk object is behaving differently than usual, a baseline has to be set up. Out-of-the-box Splunk does not provide baselining functionality. This is the reason why we brought Hyperbaseline into the App Suite.
 
-# Is it allowed monitor and analyse employees?
+# Is it allowed to monitor and analyze employees?
 
 In most countries, privacy laws are very restrictive and are getting tighter all the time. Care has to be taken, about who is allowed to see critical events. Collecting data about employee activity is usually ok, as long as access is restricted to the log data. Analyzing employee activity in detail has very tight restrictions. This is why we developed Hypercrypto, because what's the use of all these features, when you're not allowed to use them.
 
