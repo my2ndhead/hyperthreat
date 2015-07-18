@@ -25,7 +25,7 @@ After talking with many customers and gathering all requirements, we came up wit
 
 # How does it work?
 
-For detecting risk events, a normal Splunk alert search is created. The search should fire, when a risk event occurs. The alert is set up to call an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
+For detecting risk events, a normal Splunk alert search is created. When a risk event occurs, the search fires and calls an alert script provided by the Risk Manager app (risk_handler.py). This will cause Risk Manager to take care of the alert.
 
 Inside the Risk Manager App, a user with the Splunk Risk Manager Role defines which alerts are managed by Risk Manager. For each alert, a risk object type, such as user or host, is defined, that will be monitored. For each risk object of this type, a risk score will be assigned to the risk object. Risk scores are accumulated, should a risk object be again detected by an alert.
 
