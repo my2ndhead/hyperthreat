@@ -70,6 +70,12 @@ Complete documentation can be found here
 - Hyperbaseline: https://github.com/my2ndhead/SA-hyperbaseline/blob/master/README.md
 - Hypercrypto: https://github.com/my2ndhead/SA-hypercrypto/blob/master/README.md
 
+# Will you provide support for the App Suite?
+
+- Currenty there is no commercial support, but depending on the success of the app we might consider this
+- Bugs and enhancement requests can reported to us by opening an issue on Github.
+- Splunk App Certification is a thing we are considering
+
 # License
 - **This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.** [1]
 - **Commercial Use, Excerpt from CC BY-NC-SA 4.0:**
