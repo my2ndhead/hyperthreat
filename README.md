@@ -15,7 +15,7 @@ Detecting insiders is a tough task, as insiders can move slowly over several wee
 
 A good solution to find insiders is to define risk scores for suspicious events. Each risk event is related to a risk object. A risk object could e.g. be a user/employee doing something bad, or a system/host being attacked. If a risk object behaves badly over time, the risk score will rise and possibly reach a level that requires further investigations.
 
-Hypercrypto brings a complete and free solution that covers risk scoring baselining and encryption to the masses.
+Hyperthreat brings a complete and free solution that covers risk scoring baselining and encryption to the masses.
 
 # Why did we build it?
 
@@ -78,6 +78,16 @@ Complete documentation can be found here
 - Bugs and enhancement requests can reported to us by opening an issue on Github.
 - Splunk App Certification is a thing we are considering
 
+# Roadmap
+
+- Adding support to encrypt and hash data during index-time
+- Better integration of alert searches with Risk Manager, with a future Splunk feature that may or may not exist
+- More reports, dashboards
+- Seamless integration with Alert Manager for Incident Management
+- UI improvments for Hypercrypto
+- UI improvments for Hyperbaseline
+- We will listen to our users and add features our users are needing
+
 # License
 - **This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.** [1]
 - **Commercial Use, Excerpt from CC BY-NC-SA 4.0:**
@@ -93,7 +103,7 @@ Complete documentation can be found here
 - We have spun up an Amazon EC2 cloud instance and will provide full access to the operating system (Ubuntu) and Splunk Enterprise.
 - The Splunk instance contains the DARPA test data, and TA-threatintelligence.
 - Also, the GA release of the Hyperthreat Suite, including Risk Manager, Hyperbaseline and Hypercrypto will be installed as documented.
-- A separate App with Demo searches will be provided. As the test data is historic and due to lack of time it was impossible to write an event re-player, all the searches are run against historical data. All searches simulate the situation as how they would be in real-life. 
+- A separate App with Demo searches will be provided. As the test data is historic and due to lack of time it was impossible to write an event re-player, all the searches are run against historical data. All searches simulate the situation as how they would be in real-life. https://github.com/my2ndhead/SA-hyperthreat-demo/blob/master/README.md
 - The tests are run against the R6.1 Test data and focus on the Insider #1 with the username of "CSF2712".
 - Risk Manager contains minor parts of code from the Alert Manager-app, where all intellectual property is owned by us (code reuse).
 
