@@ -97,5 +97,9 @@ Complete documentation can be found here
 - The tests are run against the R6.1 Test data and focus on the Insider #1 with the username of "CSF2712".
 - Risk Manager contains minor parts of code from the Alert Manager-app, where all intellectual property is owned by us (code reuse).
 
+# What we are proud of...
+
+This was a real team effort. We were able to build a complex solution together, touching almost every Splunk techology there is,and everyone was able to show his strenghts. The culmination of the project was, when we broughtthe three different app pieces together, almost everything worked right out-of-the-box and the insider in the test data was found immediatly.
+
 ## References
 [1] http://creativecommons.org/licenses/by-nc-sa/4.0/
