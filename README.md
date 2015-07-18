@@ -46,13 +46,15 @@ Using the "hash" command, a user's name can be hashed. The hash value will alway
 Using the "crypt" command, all evidence that needs to be collected can be encrypted. We decided to implement a asymmetric encryption algorithms (public-key encryption), so that any users with the appropriate rights is able to encrypt data without the need to share passwords. Reading the date will need access to the private key and optionally, but recommended, a password. Passwords to private keys are stored inside Splunk and access to the key
 password is done one per user basis. This way a HR or a legal department may be the only one who can decrypt the data.
 
-# Doesn't the Splunk App for Enterprise Security already provide risk scoring and insider-threat intelligence?
+# Doesn't the Splunk App for Enterprise Security already provide risk scoring and insider threat intelligence?
 
 Yes, but besides being a premium app and out of reach for many Splunk user, several key features are missing in ES:
 
 - Collecting and storing evidence data
 - Easy general purpose baselining commands
 - Securely monitoring insider threats with hashing and encryption algorithms, making the Hyperthreat App Suite the only insider threat detection solution that respects employee privacy.
+
+Beside this, the Hyperthreat App Suite can always be used together with the ES App.
 
 # Has the app been tested in production?
 
