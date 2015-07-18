@@ -109,7 +109,7 @@ Complete documentation can be found here
 
 # What we are proud of...
 
-This was a real team effort. We were able to build a complex solution together, touching almost every Splunk technology there is,and everyone was able to show his strengths. The culmination of the project was, when we brought the three different app pieces together, almost everything worked right out-of-the-box and the insider in the test data was found immediately.
+This was a real team effort. We were able to build a complex solution together, touching almost every Splunk technology there is. Everyone was able to show his strengths. The culmination of the project was, when we brought the three different app pieces together, almost everything worked right out-of-the-box and the insider in the test data was found immediately.
 
 ## References
 [1] http://creativecommons.org/licenses/by-nc-sa/4.0/
