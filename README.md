@@ -111,5 +111,9 @@ Complete documentation can be found here
 
 This was a real team effort. We were able to build a complex solution together, touching almost every Splunk technology there is. Everyone was able to show his strengths. The culmination of the project was, when we brought the three different app pieces together, almost everything worked right out-of-the-box and the insider in the test data was found immediately.
 
+# Known Issues
+
+- Because of limitation of the Splunk Password Keystore, a user needs the "admin_all_objects" -capability to access his key. We recommend to only assign the capability for a limited time. A future release of Splunk or Hyperthreat will work around this issue.
+
 ## References
 [1] http://creativecommons.org/licenses/by-nc-sa/4.0/
