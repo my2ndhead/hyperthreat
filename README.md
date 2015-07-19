@@ -9,6 +9,8 @@ The Splunk Hyperthreat app suite provides advanced Insider Threat Detection. The
 - Hyperbaseline: A general purpose baselining add-on to monitor activity and detect outliers
 - Hypercrypto: An add-on that provides hash and crypto commands.
 
+Note: This is only a documentation app. For the actual app go to the app repositories using the documentation links below.
+
 # Why using the Hyperthreat App Suite?
 
 Detecting insiders is a tough task, as insiders can move slowly over several weeks and months to stay undetected. On the other hand, opening security incidents for every little suspicious action, will cause many false alerts.
