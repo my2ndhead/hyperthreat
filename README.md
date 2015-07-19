@@ -113,7 +113,7 @@ This was a real team effort. We were able to build a complex solution together, 
 
 # Known Issues
 
-- Because of limitation of the Splunk Password Keystore, a user needs the "admin_all_objects" -capability to access his key. We recommend to only assign the capability for a limited time. A future release of Splunk or Hyperthreat will work around this issue.
+- Because of limitations of the Splunk Password Keystore, a user needs the "admin_all_objects" -capability to access his key. We recommend to only assign the capability for a limited time. A future release of Splunk or Hyperthreat will work around this issue.
 
 ## References
 [1] http://creativecommons.org/licenses/by-nc-sa/4.0/
